@@ -1,0 +1,63 @@
+// Test with emoji for print
+🎁 message 👉 "Hello, emoji world!";
+📢 message;
+
+🎁 isTrue 👉 ✅;
+🎁 isFalse 👉 ⛔️;
+
+🎁 a 👉 5;
+🎁 b 👉 5;
+
+🔀 (a ⚖️ b) {
+    📢 "a equals b! ✅";
+}
+
+b 👉 10;
+
+🔀 (a ◀️ b) {
+    📢 "a is less than b! ✅";
+}
+
+🔀 (b ▶️ a) {
+    📢 "b is greater than a! ✅";
+}
+
+🔀 (isTrue) {
+    📢 "The truth is beautiful 😊";
+}
+
+🔀 (isFalse) {
+    📢 "This will not be printed";
+}
+
+🎁 count 👉 1;
+🔄(count > 0) {
+    📢 "Looping with emojis is fun!";
+    count 👉 count - 1;
+}
+
+// Simple test program in Moji
+🎁 name 👉 "World";
+📢 "Hello, " + name + "!";
+
+// Test some arithmetic
+🎁 a 👉 10;
+🎁 b 👉 5;
+📢 a + b;
+📢 a - b;
+📢 a * b;
+📢 a / b;
+
+// Test conditions
+🔀 (a ▶️ b) {
+    📢 "a is greater than b";
+} ↩️ {
+    📢 "a is not greater than b";
+}
+
+// Test while loop
+🎁 count 👉 0;
+🔄 (count ◀️ 3) {
+    📢 count;
+    count 👉 count + 1;
+} 

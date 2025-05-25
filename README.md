@@ -1,4 +1,4 @@
-# Moji - An Emoji Programming Language
+# M😝ji - An Emoji Programming Language
 
 Moji is a fun programming language that uses emojis instead of traditional keywords. It's designed to make programming more visual and intuitive.
 

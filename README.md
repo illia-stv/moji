@@ -19,7 +19,7 @@ Moji is a fun programming language that uses emojis instead of traditional keywo
 
 ```lox
 🎁 age 👉 25;
-🔀 (age ⚖️ 18) {
+🔀 (age ▶️ 17) {
     📢 "You are an adult!";
 } ↩️ {
     📢 "You are a minor!";
@@ -31,13 +31,7 @@ Moji is a fun programming language that uses emojis instead of traditional keywo
 To run a Moji script:
 
 ```bash
-go run . path/to/script.mji
-```
-
-Or start the interactive prompt:
-
-```bash
-go run .
+go run src/main.go run <path_to_file>
 ```
 
 ## Development
